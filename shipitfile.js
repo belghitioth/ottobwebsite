@@ -4,7 +4,7 @@ module.exports = shipit => {
 
     shipit.initConfig({
       default: {
-        repositoryUrl: 'git@github.com:belghitioth/pokemon-app.git',
+        repositoryUrl: 'git@github.com:belghitioth/ottobwebsite.git',
         deployTo: '/var/apps/ottobwebsite',
         deleteOnRollback : false,
         keepReleases: 2
